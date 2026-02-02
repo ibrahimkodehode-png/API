@@ -1,0 +1,138 @@
+:root {
+  /* PRIMARY */
+  --color-primary: #4db8ff;
+  --color-primary-dark: #1f8edb;
+
+  /* NEUTRALS */
+  --color-black: #0f172a;
+  --color-white: #ffffff;
+  --color-gray-100: #f5f7fa;
+  --color-gray-200: #e5e7eb;
+  --color-gray-500: #6b7280;
+
+  /* NAVBAR */
+  --color-navbar-bg: #0f172a;
+  --color-navbar-text: #ffffff;
+
+  /* UI STATES */
+  --color-hover: #4db8ff;
+  --color-active: #1f8edb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-gray-100);
+  color: var(--color-black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: var(--color-navbar-bg);
+}
+
+/* LOGO */
+.logo {
+  color: var(--color-navbar-text);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* NAV LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--color-navbar-text);
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--color-hover);
+}
+
+/* ACTIVE LINK */
+.nav-links a.active-link {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+/* HAMBURGER */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+  z-index: 1001;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: var(--color-white);
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+/* HAMBURGER ANIMATION (X) */
+.hamburger.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: var(--color-navbar-bg);
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    display: none;
+    gap: 16px;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 8px 0;
+  }
+
+  .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
