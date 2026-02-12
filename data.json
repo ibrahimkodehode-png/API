@@ -1,0 +1,23 @@
+{
+  "Sweden": {
+    "costOfLivingIndex": 67.9,
+    "rentIndex": 25.4,
+    "groceriesIndex": 64.2,
+    "restaurantIndex": 60.5,
+    "averageSalary": 3200
+  },
+  "Norway": {
+    "costOfLivingIndex": 83.1,
+    "rentIndex": 32.0,
+    "groceriesIndex": 75.4,
+    "restaurantIndex": 78.9,
+    "averageSalary": 4200
+  },
+  "Danmark": {
+    "costOfLivingIndex": 75.2,
+    "rentIndex": 28.9,
+    "groceriesIndex": 69.8,
+    "restaurantIndex": 72.4,
+    "averageSalary": 3900
+  }
+}
