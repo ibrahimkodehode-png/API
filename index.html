@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scandinavic Expenses</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <script src="javascript.js" defer></script>
   </head>
 
   <body>
@@ -26,12 +26,25 @@
       </ul>
     </nav>
 
-    <!-- MAIN CONTENT -->
-    <main class="container">
-      <div id="country-data">
-        <h2>Select a country</h2>
-        <p>Click on Sweden, Norway, or Danmark to view cost of living data.</p>
-      </div>
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Compare Scandinavian Living Costs</h1>
+          <p>
+            Explore cost of living, rent, groceries and salary data for Sweden,
+            Norway and Denmark.
+          </p>
+          <button id="explore-btn">Explore Countries</button>
+        </div>
+      </section>
+
+      <!-- DATA SECTION -->
+      <section class="data-section">
+        <div id="country-data">
+          <h2>Select a country from the menu</h2>
+        </div>
+      </section>
     </main>
   </body>
 </html>
