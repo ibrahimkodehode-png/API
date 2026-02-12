@@ -1,23 +1,72 @@
 {
-  "Sweden": {
+  "sweden": {
     "costOfLivingIndex": 67.9,
     "rentIndex": 25.4,
     "groceriesIndex": 64.2,
     "restaurantIndex": 60.5,
     "averageSalary": 3200
   },
-  "Norway": {
+  "norway": {
     "costOfLivingIndex": 83.1,
     "rentIndex": 32.0,
     "groceriesIndex": 75.4,
     "restaurantIndex": 78.9,
     "averageSalary": 4200
   },
-  "Danmark": {
+  "denmark": {
     "costOfLivingIndex": 75.2,
     "rentIndex": 28.9,
     "groceriesIndex": 69.8,
     "restaurantIndex": 72.4,
     "averageSalary": 3900
+  },
+  "germany": {
+    "costOfLivingIndex": 62.0,
+    "rentIndex": 34.0,
+    "groceriesIndex": 60.0,
+    "restaurantIndex": 50.0,
+    "averageSalary": 3500
+  },
+  "france": {
+    "costOfLivingIndex": 68.2,
+    "rentIndex": 35.5,
+    "groceriesIndex": 62.4,
+    "restaurantIndex": 55.0,
+    "averageSalary": 3100
+  },
+  "italy": {
+    "costOfLivingIndex": 58.3,
+    "rentIndex": 30.8,
+    "groceriesIndex": 55.7,
+    "restaurantIndex": 60.8,
+    "averageSalary": 2700
+  },
+  "spain": {
+    "costOfLivingIndex": 50.5,
+    "rentIndex": 26.4,
+    "groceriesIndex": 52.0,
+    "restaurantIndex": 50.5,
+    "averageSalary": 2300
+  },
+  "uk": {
+    "costOfLivingIndex": 72.0,
+    "rentIndex": 38.1,
+    "groceriesIndex": 68.0,
+    "restaurantIndex": 72.5,
+    "averageSalary": 3700
+  },
+  "netherlands": {
+    "costOfLivingIndex": 65.5,
+    "rentIndex": 32.0,
+    "groceriesIndex": 63.1,
+    "restaurantIndex": 61.4,
+    "averageSalary": 3400
+  },
+  "portugal": {
+    "costOfLivingIndex": 48.2,
+    "rentIndex": 24.8,
+    "groceriesIndex": 46.9,
+    "restaurantIndex": 47.3,
+    "averageSalary": 2000
   }
 }

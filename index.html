@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scandinavic Expenses</title>
+    <title>European Expenses</title>
     <link rel="stylesheet" href="style.css" />
     <script src="javascript.js" defer></script>
   </head>
@@ -11,7 +11,7 @@
   <body>
     <!-- NAVBAR -->
     <nav class="navbar">
-      <a href="#" class="logo">Scandinavic Expenses</a>
+      <a href="#" class="logo">European Expenses</a>
 
       <div class="hamburger" id="hamburger">
         <span></span>
@@ -20,9 +20,7 @@
       </div>
 
       <ul class="nav-links" id="nav-links">
-        <li><a href="#">Sweden</a></li>
-        <li><a href="#">Norway</a></li>
-        <li><a href="#">Danmark</a></li>
+        <!-- Dynamic Country List (will be filled by JavaScript) -->
       </ul>
     </nav>
 
@@ -30,10 +28,10 @@
       <!-- HERO SECTION -->
       <section class="hero">
         <div class="hero-content">
-          <h1>Compare Scandinavian Living Costs</h1>
+          <h1>Compare European Living Costs</h1>
           <p>
-            Explore cost of living, rent, groceries and salary data for Sweden,
-            Norway and Denmark.
+            Explore cost of living, rent, groceries, and salary data for
+            European countries.
           </p>
           <button id="explore-btn">Explore Countries</button>
         </div>
@@ -42,9 +40,19 @@
       <!-- DATA SECTION -->
       <section class="data-section">
         <div id="country-data">
-          <h2>Select a country from the menu</h2>
+          <div id="country1-data" class="card">
+            <h3>Select a country to compare</h3>
+          </div>
+          <div id="country2-data" class="card">
+            <h3>Select a second country to compare</h3>
+          </div>
         </div>
       </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2024 European Expenses. All rights reserved.</p>
+    </footer>
   </body>
 </html>

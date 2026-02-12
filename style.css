@@ -1,24 +1,19 @@
+/* Root Variables */
 :root {
-  /* PRIMARY */
   --color-primary: #4db8ff;
   --color-primary-dark: #1f8edb;
-
-  /* NEUTRALS */
   --color-black: #0f172a;
   --color-white: #ffffff;
   --color-gray-100: #f5f7fa;
   --color-gray-200: #e5e7eb;
   --color-gray-500: #6b7280;
-
-  /* NAVBAR */
   --color-navbar-bg: #0f172a;
   --color-navbar-text: #ffffff;
-
-  /* UI STATES */
   --color-hover: #4db8ff;
   --color-active: #1f8edb;
 }
 
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +37,6 @@ body {
   background-color: var(--color-navbar-bg);
 }
 
-/* LOGO */
 .logo {
   color: var(--color-navbar-text);
   font-size: 20px;
@@ -50,7 +44,6 @@ body {
   text-decoration: none;
 }
 
-/* NAV LINKS */
 .nav-links {
   list-style: none;
   display: flex;
@@ -66,75 +59,6 @@ body {
 
 .nav-links a:hover {
   color: var(--color-hover);
-}
-
-/* ACTIVE LINK */
-.nav-links a.active-link {
-  color: var(--color-primary);
-  font-weight: 600;
-}
-
-/* HAMBURGER */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-  z-index: 1001;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  background: var(--color-white);
-  transition:
-    transform 0.3s ease,
-    opacity 0.3s ease;
-}
-
-/* HAMBURGER ANIMATION (X) */
-.hamburger.active span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active span:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.active span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .hamburger {
-    display: flex;
-  }
-
-  .nav-links {
-    position: absolute;
-    top: 70px;
-    right: 0;
-    background-color: var(--color-navbar-bg);
-    flex-direction: column;
-    width: 200px;
-    padding: 20px;
-    display: none;
-    gap: 16px;
-    z-index: 1000;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .nav-links a {
-    padding: 8px 0;
-  }
-
-  .nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-  }
 }
 
 /* HERO SECTION */
@@ -186,11 +110,39 @@ body {
   justify-content: center;
 }
 
-#country-data {
+.card {
   background: white;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   max-width: 500px;
   width: 100%;
+}
+
+.loading,
+.error {
+  text-align: center;
+}
+
+.loading h3,
+.error h3 {
+  color: var(--color-primary);
+}
+
+footer {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  border-top: 3px solid var(--color-primary);
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  footer {
+    font-size: 12px;
+    padding: 15px 0;
+  }
 }
