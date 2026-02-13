@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>European Expenses</title>
+    <meta
+      name="description"
+      content="Compare European living costs, rent, groceries, and salaries across countries."
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="javascript.js" defer></script>
   </head>
@@ -13,15 +17,13 @@
     <nav class="navbar">
       <a href="#" class="logo">European Expenses</a>
 
-      <div class="hamburger" id="hamburger">
+      <div class="hamburger" id="hamburger" aria-label="Toggle navigation">
         <span></span>
         <span></span>
         <span></span>
       </div>
 
-      <ul class="nav-links" id="nav-links">
-        <!-- Dynamic Country List (will be filled by JavaScript) -->
-      </ul>
+      <ul class="nav-links" id="nav-links"></ul>
     </nav>
 
     <main>
@@ -43,16 +45,20 @@
           <div id="country1-data" class="card">
             <h3>Select a country to compare</h3>
           </div>
+
           <div id="country2-data" class="card">
             <h3>Select a second country to compare</h3>
           </div>
         </div>
+
+        <button id="reset-btn" class="reset-btn">Reset Comparison</button>
       </section>
     </main>
 
-    <!-- FOOTER -->
     <footer>
-      <p>&copy; 2024 European Expenses. All rights reserved.</p>
+      <p>
+        &copy; <span id="year"></span> European Expenses. All rights reserved.
+      </p>
     </footer>
   </body>
 </html>
