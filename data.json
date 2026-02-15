@@ -20,6 +20,21 @@
     "restaurantIndex": 72.4,
     "averageSalary": 3900
   },
+  "finland": {
+    "costOfLivingIndex": 66.5,
+    "rentIndex": 24.1,
+    "groceriesIndex": 62.0,
+    "restaurantIndex": 59.2,
+    "averageSalary": 3100
+  },
+  "iceland": {
+    "costOfLivingIndex": 80.0,
+    "rentIndex": 40.0,
+    "groceriesIndex": 70.0,
+    "restaurantIndex": 75.0,
+    "averageSalary": 4100
+  },
+
   "germany": {
     "costOfLivingIndex": 62.0,
     "rentIndex": 34.0,
@@ -34,27 +49,6 @@
     "restaurantIndex": 55.0,
     "averageSalary": 3100
   },
-  "italy": {
-    "costOfLivingIndex": 58.3,
-    "rentIndex": 30.8,
-    "groceriesIndex": 55.7,
-    "restaurantIndex": 60.8,
-    "averageSalary": 2700
-  },
-  "spain": {
-    "costOfLivingIndex": 50.5,
-    "rentIndex": 26.4,
-    "groceriesIndex": 52.0,
-    "restaurantIndex": 50.5,
-    "averageSalary": 2300
-  },
-  "uk": {
-    "costOfLivingIndex": 72.0,
-    "rentIndex": 38.1,
-    "groceriesIndex": 68.0,
-    "restaurantIndex": 72.5,
-    "averageSalary": 3700
-  },
   "netherlands": {
     "costOfLivingIndex": 65.5,
     "rentIndex": 32.0,
@@ -62,11 +56,191 @@
     "restaurantIndex": 61.4,
     "averageSalary": 3400
   },
+  "belgium": {
+    "costOfLivingIndex": 63.4,
+    "rentIndex": 29.6,
+    "groceriesIndex": 61.2,
+    "restaurantIndex": 58.9,
+    "averageSalary": 3300
+  },
+  "austria": {
+    "costOfLivingIndex": 64.0,
+    "rentIndex": 30.0,
+    "groceriesIndex": 60.5,
+    "restaurantIndex": 57.0,
+    "averageSalary": 3400
+  },
+  "switzerland": {
+    "costOfLivingIndex": 84.0,
+    "rentIndex": 40.0,
+    "groceriesIndex": 75.0,
+    "restaurantIndex": 80.0,
+    "averageSalary": 6200
+  },
+
+  "spain": {
+    "costOfLivingIndex": 50.5,
+    "rentIndex": 26.4,
+    "groceriesIndex": 52.0,
+    "restaurantIndex": 50.5,
+    "averageSalary": 2300
+  },
+  "italy": {
+    "costOfLivingIndex": 58.3,
+    "rentIndex": 30.8,
+    "groceriesIndex": 55.7,
+    "restaurantIndex": 60.8,
+    "averageSalary": 2700
+  },
   "portugal": {
     "costOfLivingIndex": 48.2,
     "rentIndex": 24.8,
     "groceriesIndex": 46.9,
     "restaurantIndex": 47.3,
     "averageSalary": 2000
+  },
+  "greece": {
+    "costOfLivingIndex": 54.0,
+    "rentIndex": 22.5,
+    "groceriesIndex": 50.0,
+    "restaurantIndex": 55.0,
+    "averageSalary": 2100
+  },
+  "malta": {
+    "costOfLivingIndex": 56.0,
+    "rentIndex": 28.0,
+    "groceriesIndex": 52.0,
+    "restaurantIndex": 58.0,
+    "averageSalary": 2400
+  },
+  "cyprus": {
+    "costOfLivingIndex": 53.0,
+    "rentIndex": 25.0,
+    "groceriesIndex": 50.5,
+    "restaurantIndex": 54.0,
+    "averageSalary": 2300
+  },
+
+  "poland": {
+    "costOfLivingIndex": 43.0,
+    "rentIndex": 18.0,
+    "groceriesIndex": 42.0,
+    "restaurantIndex": 40.0,
+    "averageSalary": 1800
+  },
+  "czechia": {
+    "costOfLivingIndex": 48.0,
+    "rentIndex": 22.0,
+    "groceriesIndex": 45.0,
+    "restaurantIndex": 46.0,
+    "averageSalary": 2000
+  },
+  "slovakia": {
+    "costOfLivingIndex": 45.0,
+    "rentIndex": 20.0,
+    "groceriesIndex": 43.0,
+    "restaurantIndex": 42.0,
+    "averageSalary": 1700
+  },
+  "hungary": {
+    "costOfLivingIndex": 44.0,
+    "rentIndex": 19.0,
+    "groceriesIndex": 42.5,
+    "restaurantIndex": 41.0,
+    "averageSalary": 1600
+  },
+  "romania": {
+    "costOfLivingIndex": 38.0,
+    "rentIndex": 15.0,
+    "groceriesIndex": 37.0,
+    "restaurantIndex": 35.0,
+    "averageSalary": 1400
+  },
+  "bulgaria": {
+    "costOfLivingIndex": 36.0,
+    "rentIndex": 14.0,
+    "groceriesIndex": 35.0,
+    "restaurantIndex": 34.0,
+    "averageSalary": 1300
+  },
+
+  "estonia": {
+    "costOfLivingIndex": 52.0,
+    "rentIndex": 24.0,
+    "groceriesIndex": 50.0,
+    "restaurantIndex": 48.0,
+    "averageSalary": 2200
+  },
+  "latvia": {
+    "costOfLivingIndex": 49.0,
+    "rentIndex": 22.0,
+    "groceriesIndex": 47.0,
+    "restaurantIndex": 45.0,
+    "averageSalary": 2000
+  },
+  "lithuania": {
+    "costOfLivingIndex": 50.0,
+    "rentIndex": 23.0,
+    "groceriesIndex": 48.0,
+    "restaurantIndex": 46.0,
+    "averageSalary": 2100
+  },
+
+  "croatia": {
+    "costOfLivingIndex": 46.0,
+    "rentIndex": 21.0,
+    "groceriesIndex": 44.0,
+    "restaurantIndex": 45.0,
+    "averageSalary": 1700
+  },
+  "slovenia": {
+    "costOfLivingIndex": 53.0,
+    "rentIndex": 26.0,
+    "groceriesIndex": 50.0,
+    "restaurantIndex": 52.0,
+    "averageSalary": 2400
+  },
+  "serbia": {
+    "costOfLivingIndex": 40.0,
+    "rentIndex": 16.0,
+    "groceriesIndex": 38.0,
+    "restaurantIndex": 36.0,
+    "averageSalary": 1200
+  },
+  "bosnia": {
+    "costOfLivingIndex": 38.0,
+    "rentIndex": 15.0,
+    "groceriesIndex": 36.0,
+    "restaurantIndex": 34.0,
+    "averageSalary": 1100
+  },
+  "montenegro": {
+    "costOfLivingIndex": 42.0,
+    "rentIndex": 18.0,
+    "groceriesIndex": 40.0,
+    "restaurantIndex": 39.0,
+    "averageSalary": 1300
+  },
+  "albania": {
+    "costOfLivingIndex": 35.0,
+    "rentIndex": 13.0,
+    "groceriesIndex": 34.0,
+    "restaurantIndex": 33.0,
+    "averageSalary": 1000
+  },
+
+  "uk": {
+    "costOfLivingIndex": 72.0,
+    "rentIndex": 38.1,
+    "groceriesIndex": 68.0,
+    "restaurantIndex": 72.5,
+    "averageSalary": 3700
+  },
+  "ireland": {
+    "costOfLivingIndex": 75.0,
+    "rentIndex": 40.0,
+    "groceriesIndex": 70.0,
+    "restaurantIndex": 73.0,
+    "averageSalary": 4200
   }
 }

@@ -3,62 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>European Expenses</title>
-    <meta
-      name="description"
-      content="Compare European living costs, rent, groceries, and salaries across countries."
-    />
-    <link rel="stylesheet" href="style.css" />
+    <title>European Expenses CLI</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="javascript.js" defer></script>
   </head>
 
   <body>
+    <!-- TERMINAL HEADER -->
+    <header class="terminal-header">
+      <span>EU-EXPENSES v1.0</span>
+      <span class="blink">█</span>
+    </header>
+
     <!-- NAVBAR -->
-    <nav class="navbar">
-      <a href="#" class="logo">European Expenses</a>
-
-      <div class="hamburger" id="hamburger" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
+    <nav class="terminal-nav">
+      <span class="prompt">$ select-region</span>
       <ul class="nav-links" id="nav-links"></ul>
     </nav>
 
-    <main>
-      <!-- COUNTRY DATA (NOW UNDER NAVBAR) -->
-      <section class="data-section top-section">
-        <div id="country-data">
-          <div id="country1-data" class="card">
-            <h3>Select a country to compare</h3>
-          </div>
+    <!-- HERO -->
+    <section class="hero">
+      <p>
+        <span class="prompt">$</span> European Expense Generator<br />
+        Compare cost of living, rent, groceries and salaries across Europe.
+      </p>
+    </section>
 
-          <div id="country2-data" class="card">
-            <h3>Select a second country to compare</h3>
-          </div>
+    <!-- DASHBOARD -->
+    <main class="dashboard">
+      <!-- LEFT -->
+      <section class="terminal-panel">
+        <div id="country1" class="terminal-box">
+          <span class="prompt">$</span> select first country
         </div>
 
-        <button id="reset-btn" class="reset-btn">Reset Comparison</button>
+        <div id="country2" class="terminal-box">
+          <span class="prompt">$</span> select second country
+        </div>
       </section>
 
-      <!-- HERO SECTION -->
-      <section class="hero">
-        <div class="hero-content">
-          <h1>Compare European Living Costs</h1>
-          <p>
-            Explore cost of living, rent, groceries, and salary data for
-            European countries.
-          </p>
-          <button id="explore-btn">Explore Countries</button>
-        </div>
+      <!-- RIGHT -->
+      <section class="terminal-panel">
+        <canvas id="comparisonChart"></canvas>
       </section>
     </main>
 
-    <footer>
-      <p>
-        &copy; <span id="year"></span> European Expenses. All rights reserved.
-      </p>
+    <footer class="terminal-footer">
+      <span>exit</span>
     </footer>
   </body>
 </html>
